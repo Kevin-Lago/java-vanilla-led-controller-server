@@ -6,11 +6,8 @@ import java.net.Socket;
 
 public class Server {
     static final int port=8080;
-    static final String newLine="\r\n";
-    Logger logger = LoggerFactory.getLogger(Server.class);
 
     public static void main(String[] args) {
-
         try {
             ServerSocket socket = new ServerSocket(port);
             System.out.println("Started Server");
